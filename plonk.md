@@ -18,21 +18,22 @@ plonk算法的大致流程是
   - 链接：https://www.youtube.com/watch?v=c_bBJriqGSA
 
 - 一些基础概念学习
-  椭圆曲线
-	https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627
-	https://www.bilibili.com/video/BV1BY411M74G/?spm_id_from=333.337.search-card.all.click&vd_source=1accc5c6ff347add0eed4f6accb7b4c4
+  
+  - 椭圆曲线
+	- https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627
+	- https://www.bilibili.com/video/BV1BY411M74G/?spm_id_from=333.337.search-card.all.click&vd_source=1accc5c6ff347add0eed4f6accb7b4c4
 
-  拉格里朗日插值
+  - 拉格里朗日插值
 	 - https://zhuanlan.zhihu.com/p/91631703
 	 - https://www.zhihu.com/question/58333118/answer/262507694
 
-  fft讲解（主要把多项式的值表示和系数表示的高效计算的算法）
-   - https://www.zhihu.com/zvideo/1485526877218009088
-   - https://www.zhihu.com/zvideo/1485527818473394178
-   - https://vitalik.ca/general/2019/05/12/fft.html （fft 	vitalikca讲解）
+  - fft讲解（主要把多项式的值表示和系数表示的高效计算的算法）
+     - https://www.zhihu.com/zvideo/1485526877218009088
+     - https://www.zhihu.com/zvideo/1485527818473394178
+     - https://vitalik.ca/general/2019/05/12/fft.html （fft 	vitalikca讲解）
    
-   KZG多项式承诺
-   - https://dankradfeist.de/ethereum/2021/10/13/kate-polynomial-commitments-mandarin.html
+  - KZG多项式承诺
+    - https://dankradfeist.de/ethereum/2021/10/13/kate-polynomial-commitments-mandarin.html
    
 论文学习
 - 整个论文速读 （5个章节，基本上把论文里的公式都写明白了，特别是最终的Verifier的推导部分写的很详细）
