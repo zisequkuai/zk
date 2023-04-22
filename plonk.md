@@ -48,9 +48,10 @@ plonk算法的大致流程是：
   - 第四章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104734609?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
   - 第五章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104735082?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=19
  
- - 李星和小白的论文解读
+ - 论文解读
    - 小白 - https://zhuanlan.zhihu.com/p/343954730 （电路部分）   https://zhuanlan.zhihu.com/p/345641784 （协议部分）
    - 李星 - https://mp.weixin.qq.com/s/_JLjPLk-dzl7NLwlcM_eLA  https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A
+   - AdijeShen - https://blog.csdn.net/AdijeShen/article/details/123332665
    
  - 官方论文阅读（如果你的时间比较充足，那么可以把论文从头到尾读一遍）
    - https://eprint.iacr.org/2019/953
