@@ -1,5 +1,7 @@
 # plonk初学者指南 （资料汇总）
 
+注：本文的背景是之前学习过程中找资料花费了很多时间，并且有的内容好，有的写的不好，消耗了不少事时间，我把之前学习中比较好的，有价值的内容聚合一下，方便后来的学习者学习。
+
 plonk算法的大致流程是
 1 - plonk首先基础逻辑是把程序（电路高级语言程序转化成多项式的过程），也即所谓的算数化
   - 2个步骤，一个是如何表达算数化，plonk主要是有通过门约束和复制约束来表达所有的逻辑，其中门约束有加法门和乘法门，复制约束主要是解决两个节点是否相等的约束问题
@@ -34,8 +36,8 @@ plonk算法的大致流程是
    
 论文学习
 - 整个论文速读 （5个章节，基本上把论文里的公式都写明白了，特别是最终的Verifier的推导部分写的很详细）
-  - 第一章（1）：https://blog.csdn.net/guoyihaoguoyihao/article/details/104715756?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&utm_relevant_index=15
-  - 第二章（2）：https://blog.csdn.net/guoyihaoguoyihao/article/details/104719738?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
+  - 第一章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104715756?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&utm_relevant_index=15
+  - 第二章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104719738?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
   - 第三章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104732802?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104732802-blog-104719738.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104732802-blog-104719738.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
   - 第四章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104734609?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
   - 第五章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104735082?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=19
@@ -48,7 +50,7 @@ plonk算法的大致流程是
   - https://eprint.iacr.org/2019/953
   
  - 阅读源代码（这一步如果后面是想做工程实现，还是可以彻底读下来，整个代码就几百行，核心的部分就是把电路高级语言编译成多项式，然后prover做承诺，Verifier做验证
-   Vitalik 用python写的一个用于学习plonk算法的代码  https://github.com/ethereum/research/tree/master/py_plonk（plonk教学）
-   Vitalik 写的plonk解读，可以配合着代码一起看 https://www.8btc.com/article/486086
+   - Vitalik 用python写的一个用于学习plonk算法的代码  https://github.com/ethereum/research/tree/master/py_plonk（plonk教学）
+   - Vitalik 写的plonk解读，可以配合着代码一起看 https://www.8btc.com/article/486086
    
    
