@@ -47,7 +47,7 @@ plonk算法的大致流程是
    - 李星 - https://mp.weixin.qq.com/s/_JLjPLk-dzl7NLwlcM_eLA  https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A
    
  - 官方论文阅读（如果你的时间比较充足，那么可以把论文从头到尾读一遍）
-  - https://eprint.iacr.org/2019/953
+   - https://eprint.iacr.org/2019/953
   
  - 阅读源代码（这一步如果后面是想做工程实现，还是可以彻底读下来，整个代码就几百行，核心的部分就是把电路高级语言编译成多项式，然后prover做承诺，Verifier做验证
    - Vitalik 用python写的一个用于学习plonk算法的代码  https://github.com/ethereum/research/tree/master/py_plonk（plonk教学）
