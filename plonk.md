@@ -11,9 +11,9 @@ plonk算法的大致流程是
 理论学习（这个理论学习还是非常消耗时间的，看兴趣）
 
 - 中文最好的理论入门教程，总共7节课程，每个公式推导的都很细致  
-  链接：https://www.bilibili.com/video/BV1XZ4y1A7bU/?spm_id_from=333.337.search-card.all.click
+  - 链接：https://www.bilibili.com/video/BV1XZ4y1A7bU/?spm_id_from=333.337.search-card.all.click
 - plonk有个基础理论是函数F（x）要先承诺一个值，以及后面验证者要打开几个值，在用公式f（x）- f（a）= （x-a）q（x） 验证可被整除，如果可以被整除就说明是验证成立，那这个视频是比较好的推导整个公式以及整个证明和验证流程讲的比较清晰和完整的 
-  链接：https://www.youtube.com/watch?v=c_bBJriqGSA
+  - 链接：https://www.youtube.com/watch?v=c_bBJriqGSA
 
 - 一些基础概念学习
   椭圆曲线
@@ -34,11 +34,11 @@ plonk算法的大致流程是
    
 论文学习
 - 整个论文速读 （5个章节，基本上把论文里的公式都写明白了，特别是最终的Verifier的推导部分写的很详细）
-  第一章（1）：https://blog.csdn.net/guoyihaoguoyihao/article/details/104715756?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&utm_relevant_index=15
-  第二章（2）：https://blog.csdn.net/guoyihaoguoyihao/article/details/104719738?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
-  第三章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104732802?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104732802-blog-104719738.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104732802-blog-104719738.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
-  第四章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104734609?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
-  第五章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104735082?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=19
+  - 第一章（1）：https://blog.csdn.net/guoyihaoguoyihao/article/details/104715756?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-14-104715756-blog-112861106.pc_relevant_landingrelevant&utm_relevant_index=15
+  - 第二章（2）：https://blog.csdn.net/guoyihaoguoyihao/article/details/104719738?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104719738-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
+  - 第三章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104732802?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104732802-blog-104719738.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104732802-blog-104719738.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
+  - 第四章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104734609?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-104734609-blog-104732802.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=2
+  - 第五章：https://blog.csdn.net/guoyihaoguoyihao/article/details/104735082?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-14-104735082-blog-104715756.235%5Ev31%5Epc_relevant_yljh&utm_relevant_index=19
  
  - 李星和小白的论文解读
    - 小白 - https://zhuanlan.zhihu.com/p/343954730 （电路部分）   https://zhuanlan.zhihu.com/p/345641784 （协议部分）
