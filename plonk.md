@@ -21,7 +21,9 @@ plonk算法的大致流程是：
   - 链接：https://www.bilibili.com/video/BV1XZ4y1A7bU/?spm_id_from=333.337.search-card.all.click
 - plonk有个基础理论是函数F（x）要先承诺一个值，以及后面验证者要打开几个值，在用公式f（x）- f（a）= （x-a）q（x） 验证可被整除，如果可以被整除就说明是验证成立，那这个视频是比较好的推导整个公式以及整个证明和验证流程讲的比较清晰和完整的 
   - 链接：https://www.youtube.com/watch?v=c_bBJriqGSA
-
+- guoyu老师的课程也很棒
+  - https://github.com/sec-bit/learning-zkp/tree/develop/plonk-intro-cn
+  
 - 一些基础概念学习
   
   - 椭圆曲线
